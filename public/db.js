@@ -40,7 +40,8 @@ const readDB = () => {
     getAll.onsuccess = function() {
         console.log(getAll.result)
         if (getAll.result.length > 0) {
-          fetch("/api/transaction/bulk", {
+          // fetch("/api/transaction/bulk", {
+          fetch("/models/transaction/bulk", {
             method: "POST",
             body: JSON.stringify(getAll.result),
             headers: {
