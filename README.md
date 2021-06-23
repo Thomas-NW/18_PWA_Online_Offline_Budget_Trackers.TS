@@ -35,6 +35,8 @@ No license requirements.
 ## Usage
 💻 Heroku: https://budgettrackerts.herokuapp.com/
 
+mongodb+srv://budget:budget123@cluster0.q7kzz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
 
 ## Contributing
 👪 I am thanking my class mates and TA for support. 
