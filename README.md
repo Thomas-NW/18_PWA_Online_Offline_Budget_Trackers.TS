@@ -30,15 +30,14 @@ No license requirements.
 
 ## Installation
 💾 npm install with dependencies. deployment through Heroku. It will be required to hookup your own MongoDB to the Webserver via Mongo Atlas
-- Login at https://www.mongodb.com/ to generate your clusters and retrieve the 
-- Start mongo deamon in gitbash (mongod)
-- start mongo in Terminal (mongo)
-
 
 ## Usage
 💻 Heroku: https://budgettrackerts.herokuapp.com/
 
-mongodb+srv://budget12:budget123!@budget0.qkba4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+Images:
+
+![image_offline](./public/assets/images/image_offline.JPG)
+![image_offline](./public/assets/images/image_online.JPG)
 
 
 ## Contributing
@@ -57,7 +56,7 @@ If you have questions or comments, please send them to thomasschmidt2021
 HTML 5.0, CSS, JavaScript, express.js, mongoDB, and indexedDB to create read and write abilities to a database online or offline.
 
 ## Github reference 
-
+https://github.com/Thomas-NW/18_PWA_Online_Offline_Budget_Trackers_TS.git
 
 
 Thank you for visiting and reviewing the project. 
