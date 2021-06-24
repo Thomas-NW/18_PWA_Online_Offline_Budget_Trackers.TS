@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const Transaction = require("../models/transaction.js");
+console.log('ROUTES FILE LOADED!!!!')
 
 // router.post("/api/transaction", ({body}, res) => {
 router.post("/models/transaction", ({body}, res) => {
@@ -13,6 +14,9 @@ router.post("/models/transaction", ({body}, res) => {
       res.status(404).json(err);
     });
 });
+router.get('/test', (req,res) =>{
+  res.send('HEllo from test')
+})
 
 // router.post("/api/transaction/bulk", ({body}, res) => {
 router.post("/models/transaction/bulk", ({body}, res) => {  
