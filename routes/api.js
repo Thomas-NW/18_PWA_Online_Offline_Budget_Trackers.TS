@@ -14,6 +14,7 @@ router.post("/models/transaction", ({body}, res) => {
       res.status(404).json(err);
     });
 });
+
 router.get('/test', (req,res) =>{
   res.send('HEllo from test')
 })
