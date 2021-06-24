@@ -30,6 +30,9 @@ No license requirements.
 
 ## Installation
 💾 npm install with dependencies. deployment through Heroku. It will be required to hookup your own MongoDB to the Webserver via Mongo Atlas
+- Login at https://www.mongodb.com/ to generate your clusters and retrieve the 
+- Start mongo deamon in gitbash (mongod)
+- start mongo in Terminal (mongo)
 
 
 ## Usage
